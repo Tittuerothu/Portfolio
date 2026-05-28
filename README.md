@@ -4,7 +4,7 @@
 
 📍 Dublin, Ireland
 📧 [tittu200114@gmail.com](mailto:tittu200114@gmail.com)
-💼 LinkedIn: linkedin.com/in/tittu-erothu
+💼 LinkedIn: https://www.linkedin.com/in/tittu-erothu-19b3a42b9/
 
 ---
 
