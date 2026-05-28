@@ -1,125 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tittu Erothu | Software Developer</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tittu Erothu | Software Developer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-<header>
-<h1>Tittu Erothu</h1>
-<p>MSc Computing Science Student | Software Developer | QA Automation</p>
-<p class="badge">🟢 Open to Work</p>
-</header>
+    <!-- ================= NAVBAR ================= -->
 
-<nav>
-<a href="#about">About</a>
-<a href="#experience">Experience</a>
-<a href="#projects">Projects</a>
-<a href="#skills">Skills</a>
-<a href="#contact">Contact</a>
-</nav>
+    <nav class="navbar">
 
-<!-- ABOUT -->
-<section id="about">
-<h2>About Me</h2>
-<p>
-I am an MSc Computing Science student with strong skills in software development, cloud computing, and machine learning.
-I have hands-on experience in QA automation, web development, and AWS cloud through internships and projects.
-I enjoy building scalable applications and improving software quality through testing and automation.
-</p>
-</section>
+        <div class="logo">
+            Tittu<span></span>
+        </div>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-<h2>Experience</h2>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-<div class="card">
-<h3>QA Automation Trainee – CloudQA</h3>
-<p>Jun 2024 – Aug 2025</p>
-<ul>
-<li>Developed automated test scripts using Selenium WebDriver</li>
-<li>Performed functional, regression, and UI testing</li>
-<li>Designed test cases and scenarios</li>
-<li>Collaborated with developers to fix issues</li>
-<li>Performed cross-browser testing</li>
-</ul>
-</div>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="ri-menu-3-line"></i>
+        </div>
 
-<div class="card">
-<h3>Web Development Intern – OASIS INFOBYTE</h3>
-<p>Jan 2024 – May 2024</p>
-<ul>
-<li>Developed responsive web pages</li>
-<li>Improved UI and user experience</li>
-</ul>
-</div>
+    </nav>
 
-<div class="card">
-<h3>Cloud Intern – Brain O Vision</h3>
-<p>Jan 2023 – Jul 2023</p>
-<ul>
-<li>Worked with AWS EC2 instances</li>
-<li>Configured security and IAM</li>
-</ul>
-</div>
+    <!-- ================= THEME TOGGLE ================= -->
 
-</section>
+    <div class="theme-toggle" id="themeToggle">
+        🌙
+    </div>
 
-<!-- PROJECTS -->
-<section id="projects">
-<h2>Projects</h2>
+    <!-- ================= HERO SECTION ================= -->
 
-<div class="card">
-<h3>📱 Budget Tracker App</h3>
-<p>Android app using Kotlin & MVVM to track income and expenses with real-time analytics.</p>
-</div>
+    <section class="hero" id="home">
 
-<div class="card">
-<h3>🤖 Startup Prediction System</h3>
-<p>Machine learning model using Python to predict startup success with improved accuracy.</p>
-</div>
+        <div class="hero-content" data-aos="fade-up">
 
-<div class="card">
-<h3>🌱 Smart Irrigation System</h3>
-<p>IoT-based system that automates watering and reduces water usage.</p>
-</div>
+            <h3>Hello, I'm</h3>
 
-</section>
+            <h1>Tittu Erothu</h1>
 
-<!-- SKILLS -->
-<section id="skills">
-<h2>Skills</h2>
+            <h2>
+                <span id="typing"></span>
+            </h2>
 
-<h3>Programming</h3>
-<p>Java, Python, SQL, Kotlin, C</p>
+            <p>
+                MSc Computing Science student passionate about software development,
+                Android applications, QA automation, and AI-powered solutions.
+            </p>
 
-<h3>Web</h3>
-<p>HTML, CSS, JavaScript</p>
+            <div class="hero-buttons">
 
-<h3>Testing & QA</h3>
-<p>Selenium, Manual Testing, API Testing (Postman), JIRA</p>
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
 
-<h3>Tools</h3>
-<p>Git, GitHub, Jenkins, AWS EC2, VS Code</p>
+                <a href="1111.pdf" download class="btn secondary-btn">
+                    Download Resume
+                </a>
 
-</section>
+            </div>
 
-<!-- CONTACT -->
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: tittu200114@gmail.com</p>
-<p>Location: Dublin, Ireland</p>
-<p>LinkedIn: linkedin.com/in/tittu-erothu</p>
-</section>
+            <div class="social-icons">
 
-<footer>
-<p>© 2026 Tittu Erothu | Portfolio</p>
-</footer>
+                <a href="https://github.com/Tittuerothu" target="_blank">
+                    <i class="ri-github-fill"></i>
+                </a>
 
-<script src="script.js"></script>
+                <a href="https://www.linkedin.com/in/tittu-erothu-19b3a42b9/" target="_blank">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+
+                <a href="mailto:tittu200114@gmail.com">
+                    <i class="ri-mail-fill"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-container" data-aos="fade-up">
+
+            <div class="about-card">
+
+                <p>
+                    I am an MSc Computing Science student based in Dublin, Ireland,
+                    with a strong foundation in Java development, Android applications,
+                    machine learning, QA automation, and cloud fundamentals.
+                </p>
+
+                <p>
+                    I enjoy building scalable applications, solving real-world problems,
+                    and creating user-friendly software experiences through clean and
+                    modern development practices.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="experience section" id="experience">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item" data-aos="fade-right">
+
+                <div class="timeline-content">
+
+                    <h3>QA Automation Trainee</h3>
+
+                    <h4>CloudQA</h4>
+
+                    <span>Jun 2024 – Aug 2025</span>
+
+                    <p>
+                        Developed Selenium automation scripts, performed regression testing,
+                        and collaborated with developers to improve software quality.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item" data-aos="fade-left">
+
+                <div class="timeline-content">
+
+                    <h3>Web Development Intern</h3>
+
+                    <h4>OASIS INFOBYTE</h4>
+
+                    <span>Jan 2024 – May 2024</span>
+
+                    <p>
+                        Built responsive web applications using HTML, CSS, and JavaScript
+                        with improved cross-device compatibility.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item" data-aos="fade-right">
+
+                <div class="timeline-content">
+
+                    <h3>Cloud Computing Intern</h3>
+
+                    <h4>Brain O Vision Solutions</h4>
+
+                    <span>Jan 2023 – Jul 2023</span>
+
+                    <p>
+                        Worked with AWS EC2, IAM, and cloud deployment fundamentals
+                        for secure cloud infrastructure management.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="projects section" id="projects">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="projects-container">
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card" data-aos="zoom-in">
+
+                <div class="project-content">
+
+                    <h3>Social Media Web Application</h3>
+
+                    <p>
+                        Full-stack social media platform with authentication,
+                        tweet posting, follow system, and Azure Blob image uploads.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>FastAPI</span>
+                        <span>MongoDB</span>
+                        <span>Firebase</span>
+                        <span>Azure</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/Tittuerothu/Portfolio" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card" data-aos="zoom-in">
+
+                <div class="project-content">
+
+                    <h3>Smart Navigation App</h3>
+
+                    <p>
+                        Android GPS navigation application with waypoint tracking,
+                        compass interface, and real-time sensor updates.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Kotlin</span>
+                        <span>Jetpack Compose</span>
+                        <span>GPS</span>
+                        <span>Room DB</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/Tittuerothu/GPAWAYPOINT1" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card" data-aos="zoom-in">
+
+                <div class="project-content">
+
+                    <h3>Deep Learning NLP Project</h3>
+
+                    <p>
+                        Deep learning research project using CNN, BERT, LSTM,
+                        and transfer learning for image and text classification.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>BERT</span>
+                        <span>CNN</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/Tittuerothu/deep-learning-image-nlp-classification" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 4 -->
+
+            <div class="project-card" data-aos="zoom-in">
+
+                <div class="project-content">
+
+                    <h3>Meeting Room Booking System</h3>
+
+                    <p>
+                        Web-based scheduling platform with booking validation,
+                        authentication, and real-time occupancy management.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>FastAPI</span>
+                        <span>MongoDB</span>
+                        <span>Firebase</span>
+                        <span>Azure</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/Tittuerothu/RoomBooking3195210" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 5 -->
+
+            <div class="project-card" data-aos="zoom-in">
+
+                <div class="project-content">
+
+                    <h3>Budget Tracker App</h3>
+
+                    <p>
+                        Android application for tracking income and expenses
+                        with charts, budgeting, and offline data storage.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Kotlin</span>
+                        <span>MVVM</span>
+                        <span>Room DB</span>
+                        <span>Charts</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/Tittuerothu/Simple-Budget-Planner" target="_blank">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills section" id="skills">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card" data-aos="flip-left">
+                <h3>Programming</h3>
+                <p>Java, Python, Kotlin, SQL, C</p>
+            </div>
+
+            <div class="skill-card" data-aos="flip-left">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, REST APIs</p>
+            </div>
+
+            <div class="skill-card" data-aos="flip-left">
+                <h3>Machine Learning</h3>
+                <p>TensorFlow, BERT, CNN, LSTM</p>
+            </div>
+
+            <div class="skill-card" data-aos="flip-left">
+                <h3>Tools & Platforms</h3>
+                <p>Git, GitHub, AWS, Android Studio, VS Code</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section" id="contact">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-card" data-aos="fade-right">
+
+                <i class="ri-mail-fill"></i>
+
+                <h3>Email</h3>
+
+                <p>
+
+                    <a href="mailto:tittu200114@gmail.com">
+                        tittu200114@gmail.com
+                    </a>
+
+                </p>
+
+            </div>
+
+            <div class="contact-card" data-aos="fade-up">
+
+                <i class="ri-linkedin-box-fill"></i>
+
+                <h3>LinkedIn</h3>
+
+                <p>
+
+                    <a href="https://www.linkedin.com/in/tittu-erothu-19b3a42b9/" target="_blank">
+                        Connect With Me
+                    </a>
+
+                </p>
+
+            </div>
+
+            <div class="contact-card" data-aos="fade-left">
+
+                <i class="ri-map-pin-fill"></i>
+
+                <h3>Location</h3>
+
+                <p>Dublin, Ireland</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Tittu Erothu | Software Developer Portfolio
+        </p>
+
+    </footer>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
