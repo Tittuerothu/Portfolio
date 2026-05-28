@@ -1,338 +1,204 @@
-````md id="9rbv4d"
-# 🚀 Tittu Erothu - Professional Portfolio Website
+# Hi, I'm Tittu Erothu 👋
 
-A modern, responsive, and professional software engineer portfolio website built using HTML, CSS, and JavaScript.
+### Graduate Software Engineer | MSc Computing Science Student | Full-Stack Developer
 
-This portfolio showcases my:
-- Software Engineering projects
-- AI & Machine Learning research
-- Android applications
-- Full Stack Development skills
-- QA Automation experience
-- Cloud Computing knowledge
+📍 Dublin, Ireland
+📧 [tittu200114@gmail.com](mailto:tittu200114@gmail.com)
+💼 LinkedIn: linkedin.com/in/tittu-erothu
 
 ---
 
-# 🌐 Live Portfolio
+## About Me
 
-> Add your deployed portfolio link here
+I am an MSc Computing Science student at Griffith College Dublin with a strong foundation in software development, cloud computing, mobile application development, and machine learning.
 
-```bash
-https://your-portfolio-link.com
-````
+My experience includes developing full-stack web applications, Android applications, automation testing solutions, and AI-powered systems. I enjoy building scalable software solutions, learning new technologies, and solving real-world problems through technology.
 
----
+Currently seeking opportunities for:
 
-# 👨‍💻 About Me
-
-I am an MSc Computing Science student at Griffith College Dublin with strong experience in:
-
-* Full Stack Development
-* Android Development
-* Artificial Intelligence & Machine Learning
-* QA Automation
-* Cloud Computing
-* REST API Development
-
-I enjoy building scalable software systems, modern digital products, and AI-powered applications that solve real-world problems.
+* Graduate Software Engineer
+* Junior Software Engineer
+* Software Developer
+* Full-Stack Developer
+* Backend Developer
+* Mobile Application Developer
 
 ---
 
-# 🛠️ Technologies Used
+## Professional Experience
 
-## Frontend
+### QA Automation Trainee | CloudQA
 
-* HTML5
-* CSS3
-* JavaScript
+* Developed automated test scripts using Selenium WebDriver
+* Executed functional and regression testing
+* Collaborated with development teams to identify defects
+* Improved application quality through automation practices
 
-## Backend & APIs
+### Web Development Intern | Oasis Infobyte
+
+* Built responsive web applications
+* Developed user-friendly interfaces
+* Improved cross-device compatibility
+
+### Cloud Computing Intern | Brain O Vision Solutions
+
+* Managed AWS EC2 instances
+* Configured IAM permissions
+* Implemented cloud security fundamentals
+
+---
+ 
+## Featured Projects
+
+### Social Media Web Application
+
+**Tech Stack:** FastAPI, Python, MongoDB, Firebase, Azure Blob Storage
+
+* Secure user authentication and profile management
+* Tweet posting and social interaction features
+* Real-time timeline updates
+* Image upload integration using Azure Blob Storage
+* Responsive user interface design
+
+---
+
+### Smart Navigation & Compass Application
+
+**Tech Stack:** Kotlin, Jetpack Compose, GPS, Sensors, Room Database
+
+* Real-time GPS navigation
+* Compass-based waypoint tracking
+* Interactive gesture controls
+* Location-aware navigation system
+* Battery-efficient sensor management
+
+---
+
+### Deep Learning Classification & NLP Research
+
+**Tech Stack:** Python, TensorFlow, Keras, BERT, CNN, LSTM
+
+* Image and text classification systems
+* Transfer learning and model fine-tuning
+* News topic classification using BERT
+* Deep learning performance comparison studies
+* Model interpretability and evaluation
+
+---
+
+### Meeting Room Booking Management System
+
+**Tech Stack:** FastAPI, MongoDB, Firebase, Azure Blob Storage
+
+* Real-time room scheduling
+* Conflict detection and booking validation
+* Calendar-based reservation management
+* Secure authentication and authorization
+
+---
+
+### Budget Tracker Mobile Application
+
+**Tech Stack:** Kotlin, Jetpack Compose, MVVM, Room Database
+
+* Expense and income tracking
+* Category-based budgeting
+* Monthly analytics dashboard
+* Offline data persistence
+* Automated financial summaries
+
+---
+
+## Technical Skills
+
+### Programming Languages
+
+* Java
+* Python
+* Kotlin
+* SQL
+* C
+
+### Web Development
 
 * FastAPI
 * REST APIs
+* HTML
+* CSS
+* JavaScript
 
-## Mobile Development
+### Mobile Development
 
-* Kotlin
+* Android Development
 * Jetpack Compose
-* Android Studio
+* MVVM Architecture
+* Room Database
 
-## Databases
+### Databases
 
 * MongoDB
-* Firebase
-* SQLite (Room DB)
+* MySQL
+* SQLite
 
-## AI & Machine Learning
+### Machine Learning & AI
 
-* Python
 * TensorFlow
+* Keras
+* Scikit-Learn
+* Pandas
+* NumPy
 * BERT
 * CNN
 * LSTM
-* Scikit-learn
 
-## Cloud & Tools
+### Cloud & DevOps
 
 * AWS EC2
 * Azure Blob Storage
-* Git & GitHub
+* Linux
+* Git
+* GitHub
+
+### Testing
+
 * Selenium WebDriver
+* Test Automation
+* Functional Testing
+* Regression Testing
+* Cross-Browser Testing
 
 ---
 
-# ✨ Features
+## Education
 
-✅ Modern futuristic UI
-✅ Responsive design
-✅ Animated typing effect
-✅ Particle background animation
-✅ Professional project showcase
-✅ Experience timeline
-✅ Skills section
-✅ Certifications section
-✅ Resume download button
-✅ Smooth scrolling animations
-✅ Mobile-friendly layout
-✅ Glassmorphism UI design
-
----
-
-# 📂 Featured Projects
-
----
-
-## 🔹 Social Media Web Application
-
-Developed a scalable social media platform with:
-
-* Secure authentication
-* User profile management
-* Real-time feeds
-* Tweet & retweet functionality
-* Image uploads
-* Follow/unfollow system
-
-### Technologies
-
-FastAPI • MongoDB • Firebase • Azure Blob Storage
-
----
-
-## 🔹 Smart Navigation & Compass App
-
-Built an Android navigation application featuring:
-
-* Real-time GPS tracking
-* Compass-based navigation
-* Waypoint visualization
-* Sensor integration
-* Battery optimization
-
-### Technologies
-
-Kotlin • GPS • Sensors • Jetpack Compose
-
----
-
-## 🔹 Deep Learning & NLP Research Project
-
-Implemented advanced deep learning architectures including:
-
-* CNN
-* LSTM
-* MobileNetV2
-* ResNet50
-* BERT
-
-for image and text classification tasks.
-
-### Technologies
-
-Python • TensorFlow • BERT • CNN • LSTM
-
----
-
-## 🔹 Meeting Room Booking System
-
-Developed a smart room booking management system with:
-
-* Real-time scheduling
-* Authentication
-* Conflict detection
-* Booking validation
-
-### Technologies
-
-FastAPI • MongoDB • Firebase
-
----
-
-## 🔹 Budget Tracker Mobile App
-
-Created an Android budgeting application featuring:
-
-* Expense tracking
-* Category management
-* Analytics dashboard
-* Offline storage
-
-### Technologies
-
-Kotlin • MVVM • Room DB
-
----
-
-# 💼 Experience
-
-## QA Automation Trainee — CloudQA
-
-**Jun 2024 – Aug 2025**
-
-* Developed Selenium automation scripts
-* Performed regression testing
-* Conducted UI & functional testing
-* Performed cross-browser testing
-
----
-
-## Web Development Intern — Oasis Infobyte
-
-**Jan 2024 – May 2024**
-
-* Built responsive web applications
-* Improved user interfaces
-* Enhanced cross-device compatibility
-
----
-
-## Cloud Computing Intern — Brain O Vision
-
-**Jan 2023 – Jul 2023**
-
-* Worked with AWS EC2 instances
-* Configured IAM access controls
-* Learned cloud deployment workflows
-
----
-
-# 🎓 Education
-
-## MSc Computing Science
+### MSc Computing Science
 
 Griffith College Dublin
 2025 – 2026
 
----
-
-## B.Tech Computer Science & Engineering
+### B.Tech Computer Science & Engineering
 
 MLR Institute of Technology
 2021 – 2025
 
 ---
 
-# 🏆 Certifications
+## Certifications
 
 * AWS Academy Cloud Foundations
-* Meta Full Stack Developer Certification
-* HackerRank Java 5★
 * Python Programming Certification
+* HackerRank Java (5★)
 
 ---
 
-# 📁 Folder Structure
+## Career Objective
 
-```bash
-Portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-│
-├── assets/
-│   ├── resume.pdf
-│   ├── profile.png
-│   ├── project1.png
-│   ├── project2.png
-│   └── project3.png
-│
-└── screenshots/
-```
+Passionate about software engineering, cloud technologies, and modern application development. I am eager to contribute to innovative teams where I can apply my technical skills, continue learning, and build impactful software solutions.
 
 ---
 
-# 🚀 Deployment
+### Let's Connect
 
-You can deploy this portfolio using:
+💼 LinkedIn: https://www.linkedin.com/in/tittu-erothu-19b3a42b9/
 
-* GitHub Pages
-* Netlify
-* Vercel
-
----
-
-# 📸 Screenshots
-
-## Home Page
-
-Add screenshot here
-
-## Projects Section
-
-Add screenshot here
-
-## Mobile View
-
-Add screenshot here
-
----
-
-# 📬 Contact
-
-📧 Email:
-
-```bash
-tittu200114@gmail.com
-```
-
-📍 Location:
-
-```bash
-Dublin, Ireland
-```
-
-🔗 LinkedIn:
-
-```bash
-https://linkedin.com/in/tittu-erothu
-```
-
----
-
-# ⭐ Future Improvements
-
-* Add GitHub API integration
-* Add blog section
-* Add dark/light mode
-* Add project filtering
-* Add Three.js animations
-* Add AI chatbot
-
----
-
-# 📜 License
-
-This project is open source and available under the MIT License.
-
----
-
-# 🙌 Thank You
-
-Thank you for visiting my portfolio repository.
-
-If you like this project, feel free to star ⭐ the repository.
-
-```
-```
+⭐ Open to Graduate Software Engineer and Junior Software Engineer opportunities.
